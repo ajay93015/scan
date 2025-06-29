@@ -72,8 +72,8 @@
         }
 
         #video {
-            width: 300px;
-            height: 500px;
+            width: 100%;
+            height: auto;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-bottom: 15px;
@@ -271,8 +271,8 @@
                     video: {
                         deviceId: backCamera ? { exact: backCamera.deviceId } : undefined,
                         facingMode: backCamera ? undefined : { ideal: 'environment' },
-                        width: { ideal: 1280 },
-                        height: { ideal: 720 }
+                        width: { ideal: 400 },
+                        height: { ideal: 500 }
                     }
                 };
                 
